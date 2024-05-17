@@ -1,0 +1,238 @@
+body{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.header{
+    display: flex;
+    margin: 50px;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+.navigation-container {
+    display: flex;
+    margin-left: 630px;
+}
+
+.navigations {
+    display: flex;
+}
+
+.navigations div a{
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+/* HOME PAGE */
+
+.pic1{
+    height: 40rem;
+}
+
+.overview-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.overview-body {
+    width: 40%; 
+}
+
+.overview-body p{
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.tac1{
+    margin-left: 50px;
+    height: 33rem;
+}
+
+.tac-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.tac-body{
+    width: 40%;
+}
+
+.tac-body a, .hto-body a{
+    text-decoration: none;
+    color: white;
+    background-color: #EF8383;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.hto-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.hto1{
+    height: 30rem;
+}
+
+.hto-body{
+    width: 40%;
+    text-align: justify;
+    margin-left: 70px;
+}
+
+/* PRODUCTS PAGE */
+
+.products-container {
+    display: flex;
+}
+
+.product1, .product2, .product3 {
+    width: 614px;
+    position: relative; /* To position the image correctly within the div */
+}
+
+.product1 img, .product2 img, .product3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative; 
+    z-index: 1; 
+}
+
+.product1:hover {
+    background-image: url("../images/dolls-hover.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.product1:hover img {
+    opacity: 0; 
+}
+
+.product2:hover {
+    background-image: url("../images/flowers-hover.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.product2:hover img {
+    opacity: 0; 
+}
+
+.product3:hover {
+    background-image: url("../images/random-hover.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.product3:hover img {
+    opacity: 0; 
+}
+
+/* ABOUT US PAGE */
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.me-pic {
+    height: 30rem;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-us-content p {
+    max-width: 600px; 
+    margin: 10px 0;
+}
+
+
+footer{
+    margin-top: 100px;
+    height: 580px;
+    background-color: #1C222E;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.left-part{
+    width: 20%; 
+    color: white;
+}
+
+.left-divider, .right-divider{
+    background-color: white;
+    padding: 2px;
+}
+
+.middle-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-part a{
+    margin-top: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.right-part1{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-part2 a{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.left-part, .left-divider, .middle-part, .right-divider ,.right-part1, .right-part2{
+    margin-top: 50px;
+}
+
+.cc-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cc{
+    text-align: center;
+    color: white;
+    opacity: 50%;
+}
